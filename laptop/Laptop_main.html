@@ -1,0 +1,594 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <link rel="icon" href="/emi page and images/Untitled_design__1_-removebg-preview.png" type="images/x-icon">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <title>Laptop</title>
+  <style>
+    body {
+      background-color: black;
+      color: white;
+      overflow-x: hidden;
+    }
+
+    .vanbar {
+      background-color: black;
+      border-bottom: 0.2px double rgba(110, 93, 93, 0.415);
+
+
+    }
+
+    .dd {
+      background-color: black;
+      color: white;
+
+    }
+
+    .logoimg {
+      height: 35px;
+      width: 120px;
+      object-fit: cover;
+    }
+
+    .dd:hover {
+      color: white;
+    }
+
+    .dd:active {
+      border: none;
+      outline: none;
+    }
+
+    .si {
+      position: relative;
+      left: -170px;
+      top: 3px;
+      width: 600px;
+      font-size: 1.1rem;
+      height: 45px;
+      border-radius: 10px;
+      outline: none;
+      border: none;
+      color: #000000;
+    }
+
+    .si:hover {
+      border: 1.2px solid #027595f8;
+
+    }
+
+    .sb {
+      height: 40px;
+      border: none;
+      outline: none;
+      position: relative;
+      left: -200px;
+      top: 3px;
+      display: inline-block;
+      color: #ff0000;
+    }
+
+    .sb i {
+      color: #000000;
+      font-size: 1.2rem;
+    }
+
+    .sb i:hover {
+      color: rgba(84, 74, 74, 0.84);
+    }
+
+    .signin {
+      height: 45px;
+      width: 180PX;
+      border: 1px solid white;
+      position: relative;
+      left: 5px;
+      text-align: center;
+      border-radius: 10px;
+
+    }
+
+    .asi {
+      color: rgb(255, 255, 255);
+      font-size: 1.2rem;
+      position: relative;
+      top: 6px;
+      text-decoration: none;
+    }
+
+    .asi:hover {
+      text-decoration: none;
+      color: white;
+    }
+
+    .signin:hover {
+      background-color: #0785a8b9;
+
+      box-shadow: 1px 1px 10px 5px #0785a85e;
+
+      text-decoration: none;
+      border: none;
+    }
+
+    .icart {
+      color: rgb(255, 255, 255);
+      position: relative;
+      right: 30px;
+    }
+
+    .icart i:hover {
+      color: orangered;
+    }
+
+
+
+    .drop-main {
+      outline: none;
+      position: relative;
+      left: 50px;
+    }
+
+    .drop-main:hover {
+      color: rgb(49, 47, 47);
+    }
+/* main content */
+    .tv {
+      
+      height: 300px;
+      width: 100%;
+      background-color: rgb(19, 17, 17);
+      padding-left: 80px;
+      border-bottom: 0.1px solid rgb(70, 68, 68);
+    }
+
+    .image1 {
+      margin-left: 40px;
+      object-fit: cover;
+      height: 250px;
+      width: 300px;
+      position: relative;
+      top: 20px;
+      left: 20px;
+      /* border-right: 0.1px dotted rgb(87, 83, 83); */
+    }
+
+    .info1 {
+      height: 220px;
+      width: 600px;
+      color: white;
+      display: flex;
+      flex-direction: column;
+      position: relative;
+      left: 450px;
+      bottom: 230px;
+
+    }
+
+    .priced {
+      width: 290px;
+      position: relative;
+      left: 600px;
+      bottom: 160px;
+
+    }
+
+    .btf {
+      width: 300px;
+      color: #00e9bf;
+      position: relative;
+      top: 0px;
+      left: 0px;
+
+    }
+
+    .t {
+      width: 120px;
+      color: #00e9bf;
+      position: relative;
+      left: 720px;
+      bottom: 130px;
+
+    }
+
+    .td {
+      text-decoration: none;
+      color: white;
+    }
+
+    .td:hover {
+      text-decoration: none;
+      color: rgb(3, 144, 137);
+    }
+
+    .footer-div {
+      height: 400px;
+      width: 100%;
+      background-color: rgb(12, 12, 12);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-top: 0.2px solid rgb(81, 81, 81);
+    }
+
+    .foot1 {
+      height: 370px;
+      width: 440px;
+
+      border-right: 2px solid rgb(255, 255, 255);
+      justify-content: center;
+    }
+
+    .footh3 {
+      position: relative;
+      left: 4%;
+      top: 4%;
+    }
+
+    .mail {
+      height: 45px;
+      width: 85%;
+      position: relative;
+      top: 20px;
+      left: 3%;
+      border-radius: 12px;
+      border: none;
+      outline: none;
+      font-size: 1rem;
+    }
+
+    .companyicon {
+      height: 35px;
+      width: 80%;
+      position: relative;
+      left: 5%;
+      top: 9%;
+
+      display: flex;
+      justify-content: space-evenly;
+    }
+
+    .companyicon i {
+      font-size: 33px;
+    }
+
+    .youtube:hover {
+      color: red;
+      transition: 1s ease-in;
+    }
+
+    .facebook:hover {
+      color: rgb(25, 55, 188);
+      transition: 1s ease-in;
+    }
+
+    .instagram:hover {
+      color: rgb(255, 51, 0);
+      transition: 1s ease-in;
+    }
+
+    .twitter:hover {
+      color: rgb(14, 112, 248);
+      transition: 1s ease-in;
+    }
+
+    .linkedin:hover {
+      color: rgb(0, 149, 255);
+      transition: 1s ease-in;
+    }
+
+    p {
+      position: relative;
+      top: 18%;
+      left: 7%;
+    }
+
+    .joining {
+      height: 75%;
+      width: 95%;
+
+      display: flex;
+      justify-content: space-evenly;
+    }
+
+    .ORDER li {
+      list-style: none;
+      margin-top: 18px;
+    }
+
+    .ORDER li:hover {
+      color: rgb(3, 203, 218);
+    }
+
+    .foot {
+      border-right: none;
+    }
+
+    .inputicon i {
+      position: relative;
+      left: 350px;
+      top: -15px;
+      font-size: 27px;
+      color: grey;
+    }
+  </style>
+</head>
+
+<body>
+  <!-- navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark vanbar">
+    <div class="logo">
+      <a class="navbar-brand logofit" href="#"> <img class="logoimg" src="/logo/logo (2).png" alt=""></a>
+    </div>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"
+      aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse location" id="navbarTogglerDemo02">
+      <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+        <li class="nav-item active">
+          <a class="nav-link" href="#"><i class="fa-solid fa-location-dot"></i> Location<span
+              class="sr-only">(current)</span></a>
+        </li>
+
+      </ul>
+      <form>
+        <input class="si" type="search" placeholder="  Search Products">
+        <div class="sb"><i class="fa-solid fa-magnifying-glass"></i></div>
+      </form>
+      <!-- <div class="dropdown  drop-main">
+              <button class="btn dd dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown"
+                  aria-haspopup="true" aria-expanded="false">
+                  Products
+              </button>
+              <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                  <a href="#"><button class="dropdown-item" type="button">Latest Products </button></a>
+                  <A href="#"><button class="dropdown-item" type="button">MacBook </button></A>
+                  <button class="dropdown-item" type="button">Latest Products</button>
+              </div> -->
+    </div>
+    <div class="icart">
+      <i class="fa-solid fa-cart-shopping fa-xl"></i>
+      Cart
+    </div>
+    <div class="signin">
+      <a class="asi" href="#">Sign in</a>
+
+    </div>
+    </div>
+  </nav>
+  <!-- banner -->
+  <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="../laptop_img/10001.jpeg" class="d-block w-100" alt="...">
+      </div>
+     
+    </div>
+  </div>
+  <!-- main content -->
+  <div class="tv tv1">
+    <a href="Acer_Swift_3.html" alt="TV">
+      <img class="image1" src="../laptop_img/acerswiftimg/10001.png" alt="" /></a>
+    <div class="info1">
+      <a class="td" href="Acer_Swift_3.html" alt="TV">
+        <h5>
+          Acer Swift 3 Intel EVO Core i5 12th Gen 12500H
+        </h5>
+      </a>
+      <p class="btf">Be the first to review the product</p>
+      <ul>
+        <li>Processor: Core i5 12500H</li>
+        <li>16GB/512GB SSD</li>
+        <li>Thin and Ligh Laptop</li>
+      </ul>
+      <h6 class="t t1"><b>T-Assured</b></h6>
+      <div class="priced p1">
+        <h4>₹ 60,990</h4>
+        <h6>or ₹1,729/month <a class="vp" href="#">view plans</a></h6>
+        <h6><del>₹89,999</del> 32% off</h6>
+        <h6>Free delivery</h6>
+        <h5 style="color:green">Bank Offer</h5>
+      </div>
+    </div>
+  </div>
+  <div class="tv tv2">
+    <a href="HP_Victus.html" alt="TV">
+      <img class="image1" src="../laptop_img/hpimg/10001.png" alt="" /></a>
+    <div class="info1">
+      <a class="td" href="HP_Victus.html" alt="TV">
+        <h5>
+          HP Victus Core i5 12th Gen 12450H
+        </h5>
+      </a>
+      <p class="btf">Be the first to review the product</p>
+      <ul>
+        <li>Processor: Core i5 12450H</li>
+        <li>8GB/512GB SSD</li>
+        <li>Graphics Card: NVIDIA GTX 1650</li>
+      </ul>
+      <h6 class="t t2"><b>T-Assured</b></h6>
+      <div class="priced p2">
+        <h4>₹ 63,990</h4>
+        <h6>or ₹5,333/month <a class="vp" href="#"> view plans</a></h6>
+        <h6><del>₹74,829</del> 16% off</h6>
+        <h6>Free delivery</h6>
+        <h5 style="color:green">Bank Offer</h5>
+      </div>
+    </div>
+  </div>
+  <div class="tv tv3">
+    <a href="Lenovo_Legion_5_pro.html" alt="TV">
+      <img class="image1" src="../laptop_img/lenovoimg/10001.png" alt="" /></a>
+    <div class="info1">
+      <a class="td" href="Lenovo_Legion_5_pro.html" alt="TV">
+        <h5>
+          Lenovo Legion 5 Pro Ryzen 7 Octa Core 5800H
+        </h5>
+      </a>
+      <p class="btf">Be the first to review the product</p>
+      <ul>
+        <li>Proceesor: Ryzen 7 5800H</li>
+        <li>16GB/1TB SSD</li>
+        <li>Graphics Card: Geforce RTX 3060</li>
+      </ul>
+      <h6 class="t t3"><b>T-Assured</b></h6>
+      <div class="priced p3">
+        <h4>₹ 1,14,020</h4>
+        <h6>or ₹3,232/month<a class="vp" href="#"> view plans</a></h6>
+        <h6><del>₹1,95,890</del> 41% off</h6>
+        <h6>Free delivery</h6>
+        <h5 style="color:green">Bank Offer</h5>
+      </div>
+    </div>
+  </div>
+  <div class="tv tv4">
+    <a href="Asus-Zenbook-S13.html" alt="TV">
+      <img class="image1" src="../laptop_img/asusimg/10001.png" alt="" /></a>
+    <div class="info1">
+      <a class="td" href="Asus-Zenbook-S13.html" alt="TV">
+        <h5>
+          ASUS Zenbook S 13 OLED Intel EVO Core i7 13th Gen 1335U
+        </h5>
+      </a>
+      <p class="btf">Be the first to review the product</p>
+      <ul>
+        <li>Proccessor: Core i7 1335U</li>
+        <li>OLED Display</li>
+        <li>16GB/1TB SSD</li>
+        
+      </ul>
+      <h6 class="t t4"><b>T-Assured</b></h6>
+      <div class="priced p4">
+        <h4>₹ 1,24,990</h4>
+        <h6>or ₹10,416/month <a class="vp" href="#"> view plans</a></h6>
+        <h6><del>₹1,52,990</del> 18% off</h6>
+        <h6>Free delivery</h6>
+        <h5 style="color:green">Bank Offer</h5>
+      </div>
+    </div>
+  </div>
+  <div class="tv tv5">
+    <a href="MSI_Titan.html" alt="TV">
+      <img class="image1" style="object-fit: contain;" src="../laptop_img/msicoreimg/10002.png" alt="" /></a>
+    <div class="info1">
+      <a class="td" href="MSI_Titan.html" alt="TV">
+        <h5>
+          MSI Core i9 13th Gen 13980HX Titan GT77 Gaming Laptop
+        </h5>
+      </a>
+      <p class="btf">Be the first to review the product</p>
+      <ul>
+        <li>Processor: Core i9 13980HX</li>
+        <li>64GB/4TB SSD</li>
+        <li>Graphics Card: Geforce RTX 4090</li>
+      </ul>
+      <h6 class="t t5"><b>T-Assured</b></h6>
+      <div class="priced p5">
+        <h4>₹ 5,80,990</h4>
+        <h6>or ₹64,555/month<a class="vp" href="#"> view plans</a></h6>
+        <h6><del>₹6,71,990</del> 13% off</h6>
+        <h6>Free delivery</h6>
+        <h5 style="color:green">Bank Offer</h5>
+      </div>
+    </div>
+  </div>
+  <!-- footer part -->
+
+  <footer>
+    <div class="footer-div">
+      <div class="foot1">
+        <h3 class="footh3">CONTACT US</h3>
+        <input class="mail" type="email" placeholder="   Enter Email ID " />
+        <div class="inputicon"><i class="fa-solid fa-arrow-right"></i></div>
+        <div class="companyicon">
+          <i class="fa-brands fa-youtube youtube"></i>
+          <i class="fa-brands fa-facebook facebook"></i>
+          <i class="fa-brands fa-instagram instagram"></i>
+          <i class="fa-brands fa-twitter twitter"></i>
+          <i class="fa-brands fa-linkedin linkedin"></i>
+        </div>
+        <p>
+          <i class="fa-regular fa-copyright"></i>Copyright 2023 TechShop.All
+          rights reserved.
+        </p>
+      </div>
+      <div class="foot1">
+        <h3 class="footh3">USEFUL LINKS</h3>
+        <div class="joining">
+          <div class="ORDER">
+            <ul>
+              <li>About TechShop</li>
+              <li>Help And Support</li>
+              <li>FAQs</li>
+              <li>Buying Guide</li>
+              <li>Return Policy</li>
+              <li>B2B Orders</li>
+              <li>Store Locator</li>
+              <li>E-Waste</li>
+            </ul>
+          </div>
+          <div class="ORDER">
+            <ul>
+              <li>Opportunity</li>
+              <li>Site Map</li>
+              <li>Careers At TechShop</li>
+              <li>Terms Of Use</li>
+
+              <li>Disclaimer</li>
+              <li>Privacy Policy</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="foot1 foot">
+        <h3 class="footh3">PRODUCTS</h3>
+        <div class="joining">
+          <div class="ORDER">
+            <ul>
+              <li>Televisions & Accessories</li>
+              <li>Phones & Wearables</li>
+              <li>Computers & Tablets</li>
+              <li>Smart Devices</li>
+              <li>Gaming</li>
+              <li>Audio & Video </li>
+
+            </ul>
+          </div>
+          <div class="ORDER">
+            <ul>
+              <li>Accessories</li>
+              <LI>iPhone</LI>
+              <li>Monitor</li>
+              <li>Keyboard & mouse</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
